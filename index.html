@@ -14,14 +14,14 @@
 <body>
     <div class="jumbotron pb-5">
         <h1>Welcome to the Monster Mash!</h1>
-        <p class="instructions">Push the button and see your monsters face!</p>
+        <p class="instructions">Push the button and see your monsters face come to life!</p>
         <div class="col">
-            <button class="btn btn-danger btn-lg">Push Me, if you dare!</button>
+            <button class="btn btn-danger btn-lg">Push Me, if you <span class="scary">dare!</span></button>
         </div>
     </div>
     <div class="row text-center mt-5">
         <div class="col-sm-4">
-            <button class="btn btn-dark btn-lg">Random Eyes</button>
+            <button class="btn btn-dark btn-lg" id="eyesBtn">Random Eyes</button>
         </div>
         <div class="col-sm-4">
             <button class="btn btn-dark btn-lg">Random Nose</button>
@@ -32,8 +32,8 @@
     </div>
     <div class="container pt-5 pb-5">
         <div class="row">
-            <div class="col-sm-6 mb-n2 mx-auto">
-                <img src="Images/Frankenstein/Forehead/Frank_forehead_master.svg">
+            <div class="col-sm-6 mb-n2 mx-auto" id="eyes">
+                <img id="eyesdefault" src="Images/Frankenstein/Forehead/Frank_forehead_master.svg">
             </div>
         </div>
         <div class="row">
@@ -56,5 +56,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="JS/mashup.js"></script>
 </body>
 </html>

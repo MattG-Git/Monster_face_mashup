@@ -1,19 +1,19 @@
 body {
-  background: rgb(58,6,58);
-}
+  background: #3a063a; }
 
 h1 {
   color: white;
   font-family: "Creepster", cursive;
-  font-size: 56px; 
-}
+  font-size: 56px; }
 
 .jumbotron {
-  background: rgb(58,6,58);
-  background: linear-gradient(0deg, rgba(58,6,58,1) 0%, rgba(0,0,0,1) 51%);
-}
+  background: #3a063a;
+  background: linear-gradient(0deg, #3a063a 0%, black 51%); }
 
 .instructions {
-  font-size: 18px;
-  color:gray
-}
+  font-size: 24px;
+  color: gray;
+  font-family: "Rancho", cursive; }
+
+.scary {
+  font-family: "Nosifer", cursive; }
