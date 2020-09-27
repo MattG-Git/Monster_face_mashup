@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 338 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-290.596,-240.883)">
+        <g id="Chin_Master" transform="matrix(1,0,0,1.16997,-142.756,-255.071)">
+            <path d="M770.419,424.236C770.419,424.236 758.697,424.262 742.459,424.262L464.444,424.262C448.207,424.262 435.024,423.903 435.024,423.903C433.088,440.725 432.521,458.238 435.024,477.304C431.636,496.102 481.786,527.061 512,524.847C554.548,521.729 689.76,524.847 689.76,524.847C705.336,524.847 739.108,513.329 758.977,495.581C760.684,494.025 762.014,492.194 762.889,490.196C772.787,467.184 770.419,424.236 770.419,424.236Z" style="fill:rgb(122,192,27);"/>
+        </g>
+        <g id="mouth_3" transform="matrix(0.0124515,-0.997043,0.999922,0.0124874,-26.0458,829.65)">
+            <path d="M568.496,443.913C542.424,443.913 521.257,459.304 521.257,478.261C521.257,497.218 542.424,512.609 568.496,512.609C560.674,504.594 554.324,491.962 554.324,478.261C554.324,464.559 560.674,451.928 568.496,443.913Z" style="fill:rgb(10,16,1);stroke:rgb(87,131,27);stroke-width:11.02px;"/>
+        </g>
+    </g>
+</svg>

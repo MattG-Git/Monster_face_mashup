@@ -1,0 +1,19 @@
+{
+  "name": "monster_mashup",
+  "version": "1.0.0",
+  "description": "Monster Face Mashup",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Matt Goldhammer",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
