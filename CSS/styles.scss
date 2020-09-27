@@ -1,0 +1,14 @@
+$main-bg: rgb(58, 6, 58);
+$creepster: 'Creepster', cursive;
+$eater: 'Eater', cursive;
+$luckiest: 'Luckiest Guy', cursive;
+$dracula: 'Nosifer', cursive;
+$rancho: 'Rancho', cursive;
+
+body {
+    background-color: $main-bg;
+}
+
+h1{
+    font-family: $creepster;
+}
