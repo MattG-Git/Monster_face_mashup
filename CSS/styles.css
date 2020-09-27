@@ -10,6 +10,10 @@ h1 {
   background: #3a063a;
   background: linear-gradient(0deg, #3a063a 0%, black 51%); }
 
+#jumbotron_footer {
+  background: black;
+  background: linear-gradient(0deg, black 0%, #3a063a 99%); }
+
 .instructions {
   font-size: 24px;
   color: gray;
@@ -17,3 +21,6 @@ h1 {
 
 .scary {
   font-family: "Nosifer", cursive; }
+
+.mmheader {
+  color: #7ac214; }

@@ -4,6 +4,7 @@ $eater: 'Eater', cursive;
 $luckiest: 'Luckiest Guy', cursive;
 $dracula: 'Nosifer', cursive;
 $rancho: 'Rancho', cursive;
+$Frank_color: #7ac214;
 
 body {
     background: rgb(58,6,58);
@@ -19,6 +20,11 @@ body {
     background: rgb(58,6,58);
     background: linear-gradient(0deg, rgba(58,6,58,1) 0%, rgba(0,0,0,1) 51%);
   }
+
+  #jumbotron_footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(58,6,58,1) 99%);
+  }
   
   .instructions {
     font-size: 24px;
@@ -28,4 +34,8 @@ body {
 
   .scary {
       font-family: $dracula;
+  }
+
+  .mmheader {
+    color: $Frank_color;
   }

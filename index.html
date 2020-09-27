@@ -12,45 +12,40 @@
     <title>Monster Face Mash-up</title>
 </head>
 <body>
-    <div class="jumbotron pb-5">
-        <h1>Welcome to the Monster Mash!</h1>
+    <div class="jumbotron pl-0 text-center">
+        <h1>Welcome to the <span class="mmheader">Monster Mash!</span></h1>
         <p class="instructions">Push the button and see your monsters face come to life!</p>
         <div class="col">
-            <button class="btn btn-danger btn-lg">Push Me, if you <span class="scary">dare!</span></button>
+            <button class="btn btn-danger btn-lg mt-4" id="wholeFaceBtn">Push Me, if you <span class="scary">dare!</span></button>
         </div>
     </div>
-    <div class="row text-center mt-5">
-        <div class="col-sm-4">
-            <button class="btn btn-dark btn-lg" id="eyesBtn">Random Eyes</button>
-        </div>
-        <div class="col-sm-4">
-            <button class="btn btn-dark btn-lg">Random Nose</button>
-        </div>
-        <div class="col-sm-4">
-            <button class="btn btn-dark btn-lg">Random Mouth</button>
-        </div>
-    </div>
-    <div class="container pt-5 pb-5">
+
+    <div class="container pb-5">
         <div class="row">
-            <div class="col-sm-6 mb-n2 mx-auto" id="eyes">
+            <div class="col-sm-6 mb-n2 mx-auto">
                 <img id="eyesdefault" src="Images/Frankenstein/Forehead/Frank_forehead_master.svg">
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6 mx-auto">
-                <img src="Images/Frankenstein/Nose/Frank_nose_Master.svg">
+                <img id="nosedefault" src="Images/Frankenstein/Nose/Frank_nose_Master.svg">
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6 mt-n1 mx-auto">
-                <img src="Images/Frankenstein/Mouth/Frank_chin_masater.svg">
+                <img id="mouthdefault" src="Images/Frankenstein/Mouth/Frank_chin_masater.svg">
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col text-center mb-5">
-            <button class="btn-dark btn-lg">Reset</button>
+    <div class="row text-center mt-5 mb-3">
+        <div class="col btn-group">
+            <button class="btn btn-dark btn-lg" id="eyesBtn">Random Eyes</button>
+            <button class="btn btn-dark btn-lg" id="noseBtn">Random Nose</button>
+            <button class="btn btn-dark btn-lg" id="mouthBtn">Random Mouth</button>
         </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid text-center mb-0" id="jumbotron_footer">
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -58,4 +53,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="JS/mashup.js"></script>
 </body>
+</div>
 </html>
